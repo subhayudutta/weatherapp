@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="Weatherimg/01d.png">
+</head>
+
+<body>
+
+    <h1>What The Forecast Today?!!</h1>
+    <div class="main-section">
+
+        <div class="s1">
+            <div class="in">
+                <input type="text" class="search" placeholder="Search Location">
+            </div>
+            <div class="s-ic">
+                <i class='bx bxs-fast-forward-circle pt'></i>
+            </div>
+        </div>
+
+        <div class="s2">
+            <div class="c-name">
+                <p class="city"></p>
+            </div>
+            <div class="dt">
+                <p class="date-time1"></p>
+            </div>
+        </div>
+
+        <div class="s3">
+            <div class="temp1">
+                <p class="temperature1"></p>
+            </div>
+            <div class="fac1">
+                <p class="factor1"></p>
+            </div>
+        </div>
+
+        <div class="s4">
+            <div class="opt">
+                <ul>
+                    <li class="tc"><span class="tc1 windspeed1"> </span></li>
+                    <li class="tc"><span class="tc1 humidity1"> </span></li>
+                    <li class="tc"><span class="tc1 speed1"> </span></li>
+                </ul>
+            </div>
+            <div class="img1">
+
+            </div>
+        </div>
+
+    </div>
+
+    <h2>Next 4 Days ForeCast</h2>
+    <div class="section2">
+
+        <div class="r1 row">
+
+            <div class="m2">
+                <div class="c-name">
+                    <p class="z city"></p>
+                </div>
+                <div class="dt">
+                    <p class="z date-time2"></p>
+                </div>
+            </div>
+
+            <div class="s3">
+                <div class="temp">
+                    <p class="z temperature2"></p>
+                </div>
+                <div class="fac">
+                    <p class="z factor2"></p>
+                </div>
+            </div>
+
+            <div class="s4">
+                <div class="opt">
+                    <ul>
+                        <li class="mc"><span class="tc2 windspeed2"> </span>
+                        </li>
+                        <li class="mc"><span class="tc2 humidity2"> </span></li>
+                        <li class="mc"><span class="tc2 speed2"> </span></li>
+                    </ul>
+                </div>
+                <div class="img2">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="r2 row">
+
+            <div class="m2">
+                <div class="c-name">
+                    <p class="z city"></p>
+                </div>
+                <div class="dt">
+                    <p class="z date-time3"></p>
+                </div>
+            </div>
+
+            <div class="s3">
+                <div class="temp">
+                    <p class="z temperature3"></p>
+                </div>
+                <div class="fac">
+                    <p class="z factor3"></p>
+                </div>
+            </div>
+
+            <div class="s4">
+                <div class="opt">
+                    <ul>
+                        <li class="mc"><span class="tc2 windspeed3"> </span>
+                        </li>
+                        <li class="mc"><span class="tc2 humidity3"> </span></li>
+                        <li class="mc"><span class="tc2 speed3"> </span></li>
+                    </ul>
+                </div>
+                <div class="img3">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="r3 row">
+
+            <div class="m2">
+                <div class="c-name">
+                    <p class="z city"></p>
+                </div>
+                <div class="dt">
+                    <p class="z date-time4"></p>
+                </div>
+            </div>
+
+            <div class="s3">
+                <div class="temp">
+                    <p class="z temperature4"></p>
+                </div>
+                <div class="fac">
+                    <p class="z factor4"></p>
+                </div>
+            </div>
+
+            <div class="s4">
+                <div class="opt">
+                    <ul>
+                        <li class="mc"><span class="tc2 windspeed4"> </span>
+                        </li>
+                        <li class="mc"><span class="tc2 humidity4"> </span></li>
+                        <li class="mc"><span class="tc2 speed4"> </span></li>
+                    </ul>
+                </div>
+                <div class="img4">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="r4 row">
+
+            <div class="m2">
+                <div class="c-name">
+                    <p class="z city"></p>
+                </div>
+                <div class="dt">
+                    <p class="z date-time5"></p>
+                </div>
+            </div>
+
+            <div class="s3">
+                <div class="temp">
+                    <p class="z temperature5"></p>
+                </div>
+                <div class="fac">
+                    <p class="z factor5"></p>
+                </div>
+            </div>
+
+            <div class="s4">
+                <div class="opt">
+                    <ul>
+                        <li class="mc"><span class="tc2 windspeed5"> </span>
+                        </li>
+                        <li class="mc"><span class="tc2 humidity5"> </span></li>
+                        <li class="mc"><span class="tc2 speed5"> </span></li>
+                    </ul>
+                </div>
+                <div class="img5">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Made with ❤ by Subhayu Dutta</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
